@@ -1,7 +1,0 @@
-ip = internet protocall = https://192.158.56.5:5000 = logical address
-ip change hotay paray and habai
-
-
-mac = Media Access Control = 5F.D6.8A.4A.6D =  PHYSICAL ADDRESS
-mac address kkhono chnage hoba na
-
