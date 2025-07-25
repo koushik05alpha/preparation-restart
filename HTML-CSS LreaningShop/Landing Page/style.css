@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --btn-font-size: 2rem;
+    --btn-padding: 5px;
+    --btn-BGcolor: darkblue;
+    --btn-color: #fff;
+
+    --bg-color: rgba(0, 46, 252, 0.719);
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    width: 90%;
+    position: relative;
+}
+
+/* nav section start */
+
+.nav {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-bottom: 1px solid #3f3f3f;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--bg-color);
+    color: #fff;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.nav-menu {
+    width: 50%;
+
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.nav-menu ul li {
+    cursor: pointer;
+}
+
+.nav button {
+    font-size: 1.2rem;
+    padding: 2px;
+    display: none;
+}
+
+/* .nav-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2rem;
+    flex-direction: column;
+} */
+
+/* nav section end */
+
+/* hero section start */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.content h1 {
+    font-size: 4.5rem;
+}
+
+.content button {
+    font-size: var(--btn-font-size);
+    padding: var(--btn-padding);
+    background-color: var(--btn-BGcolor);
+    color: var(--btn-color);
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+}
+
+/* hero section end */
+
+/* service section start */
+
+.service {
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+/* service section end */
+
+/* about section start */
+
+.about {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* about section end */
+
+/* banner section start */
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-color: var(--bg-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner button {
+    font-size: var(--btn-font-size);
+    padding: var(--btn-padding);
+    background-color: var(--btn-BGcolor);
+    color: var(--btn-color);
+}
+
+/* banner section end */
