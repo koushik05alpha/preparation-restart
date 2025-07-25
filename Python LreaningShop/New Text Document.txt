@@ -1,0 +1,5 @@
+python run tahole 2 ta jinish 1st a lagba …
+
+
+1 = Python env. https://www.python.org/
+2 = IDE https://code.visualstudio.com/download
