@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Bistro is an elegant design, 100% responsive Bootstrap 5 template. It is best for Restaurant companies." />
+  <title>BISTO - Responsive Restaurant HTML Template</title>
+
+  <!-- ::::::::::::::Favicon icon::::::::::::::-->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
+
+  <!-- ::::::::::::::All CSS Files here :::::::::::::: -->
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/vendor/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/vendor/icofont.css">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/venobox.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/aos.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+  <!-- <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css"> -->
+</head>
+
+<body>
+
+  <!-- .....::::: Start Header Section :::::..... -->
+  <header class="header-section header-bg d-none d-lg-block">
+    <!-- Start Header Top -->
+    <div class="header-top">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <!-- Start Header Top Address -->
+            <div class="header-top-address">
+              <span class="sepetator-slash">Your address goes here.</span>
+              <span class="sepetator-slash"> Mon - Sun: 9:00 - 21:00</span>
+            </div>
+            <!-- End Header Top Address -->
+          </div>
+
+          <div class="col-auto">
+            <!-- Start Header Top Info -->
+            <div class="header-top-info">
+              <a class="sepetator-slash" href="mailto:demo@example.com">demo@example.com</a>
+              <a class="sepetator-slash" href="tel:+0123456789">+0123456789</a>
+            </div>
+            <!-- End Header Top Info -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header Top -->
+
+    <!-- Start Header Bottom -->
+    <div class="header-bottom sticky-header">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col">
+            <!-- Start Header Social Link -->
+            <div class="header-bottom-social">
+              <a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                  class="icofont-twitter"></i></a>
+              <a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                  class="icofont-behance"></i></a>
+              <a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                  class="icofont-instagram"></i></a>
+
+            </div>
+            <!-- End Header Social Link -->
+          </div>
+          <div class="col-auto">
+            <!-- Start Header Menu -->
+            <div class="header-bottom-menu">
+              <!-- Start Header Logo -->
+              <div class="logo">
+                <a href="index.html"><img class="img-fluid" src="assets/images/logo/logo.png" alt=""></a>
+              </div>
+              <!-- End Header Logo -->
+              <ul class="main-menu">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="menu-center-space"></li>
+                <li class="has-dropdown">
+                  <a href="news.html">News</a>
+                  <ul class="sub-menu">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="news-single.html">News Details</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">Pages</a>
+                  <ul class="sub-menu">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- End Header Menu -->
+          </div>
+          <div class="col">
+            <!-- Start Header Reservation Link -->
+            <div class="header-bottom-reservation-link text-end">
+              <a href="#">reservation</a>
+            </div>
+            <!-- End Header Reservation Link -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header Bottom -->
+  </header>
+  <!-- .....::::: End Header Section :::::..... -->
+
+  <!-- .....::::: Start Mobile Header Section :::::..... -->
+  <div class="mobile-header-section header-bg d-block d-lg-none">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col">
+          <div class="mobile-logo">
+            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="mobile-action-link text-end">
+            <a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i class="ion-drag"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .....::::: End Mobile Header Section :::::..... -->
+
+  <!--  Start Offcanvas Mobile Menu Section -->
+  <div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section">
+    <!-- Start Offcanvas Header -->
+    <div class="offcanvas-header text-right">
+      <button class="offcanvas-close"><i class="ion-android-close"></i></button>
+    </div> <!-- End Offcanvas Header -->
+    <!-- Start Offcanvas Mobile Menu Wrapper -->
+    <div class="offcanvas-mobile-menu-wrapper">
+      <!-- Start Mobile Menu  -->
+      <div class="mobile-menu-bottom">
+        <!-- Start Mobile Menu Nav -->
+        <div class="offcanvas-menu">
+          <ul>
+            <li>
+              <a href="index.html"><span>Home</span></a>
+            </li>
+            <li>
+              <a href="menu.html"><span>Menu</span></a>
+            </li>
+            <li>
+              <a href="gallery.html"><span>Gallery</span></a>
+            </li>
+            <li>
+              <a href="#"><span>News</span></a>
+              <ul class="mobile-sub-menu">
+                <li><a href="news.html">News</a></li>
+                <li><a href="news-single.html">News Details</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>Pages</span></a>
+              <ul class="mobile-sub-menu">
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div> <!-- End Mobile Menu Nav -->
+      </div> <!-- End Mobile Menu -->
+
+      <!-- Start Mobile contact Info -->
+      <div class="mobile-contact-info">
+        <address class="address">
+          <span>Your address goes here.</span>
+          <span>Mon - Sun: 9:00 - 21:00 </span>
+          <span>demo@example.com</span>
+          <span>+0123456789</span>
+        </address>
+
+        <div class="mobile-social-link">
+          <a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i class="icofont-twitter"></i></a>
+          <a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i class="icofont-behance"></i></a>
+          <a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i class="icofont-instagram"></i></a>
+        </div>
+      </div>
+      <!-- End Mobile contact Info -->
+
+    </div> <!-- End Offcanvas Mobile Menu Wrapper -->
+  </div> <!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
+
+  <!-- Offcanvas Overlay -->
+  <div class="offcanvas-overlay"></div>
+
+  <!-- .....::::: Start Hero Section :::::..... -->
+  <div class="hero-section pos-relative">
+    <!-- Start Hero Background -->
+    <div class="hero-img bg-overlay">
+      <img src="assets/images/hero-slider/hero-about-bg.jpg" alt="">
+    </div>
+    <!-- End Hero Background -->
+
+    <!-- Start Hero Content -->
+    <div class="hero-content text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xl-8 offset-xl-2">
+            <h6 class="sub-title-small">about bistro</h6>
+            <h2 class="title">Bistro <br> Restaurant</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Content -->
+
+  </div>
+  <!-- .....::::: End Hero Section :::::..... -->
+
+  <!-- .....::::: Start Promo Section :::::..... -->
+  <div class="promo-section section-padding">
+    <div class="container">
+      <div class="row mb-n6">
+        <div class="col-lg-4 col-md-6 col-12 mb-6">
+          <!-- Start Promo Single Item -->
+          <div class="promo-single-item">
+            <div class="promo-top">
+              <div class="check-icon"><i class="ion-ios-checkmark-outline"></i></div>
+              <h3 class="title">Professional Liability</h3>
+            </div>
+            <div class="promo-bottom">
+              <h3 class="promo-num">1</h3>
+              <p>Lorem ipsum dolor sit amet dolori ctetur adipiscing elit. dapibus conse Tincidunt mollis pretium.</p>
+            </div>
+          </div>
+          <!-- End Promo Single Item -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-6">
+          <!-- Start Promo Single Item -->
+          <div class="promo-single-item">
+            <div class="promo-top">
+              <div class="check-icon"><i class="ion-ios-checkmark-outline"></i></div>
+              <h3 class="title">Dedication To Our Clients</h3>
+            </div>
+            <div class="promo-bottom">
+              <h3 class="promo-num">2</h3>
+              <p>Lorem ipsum dolor sit amet dolori ctetur adipiscing elit. dapibus conse Tincidunt mollis pretium.</p>
+            </div>
+          </div>
+          <!-- End Promo Single Item -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-6">
+          <!-- Start Promo Single Item -->
+          <div class="promo-single-item">
+            <div class="promo-top">
+              <div class="check-icon"><i class="ion-ios-checkmark-outline"></i></div>
+              <h3 class="title">Outstanding Services</h3>
+            </div>
+            <div class="promo-bottom">
+              <h3 class="promo-num">3</h3>
+              <p>Lorem ipsum dolor sit amet dolori ctetur adipiscing elit. dapibus conse Tincidunt mollis pretium.</p>
+            </div>
+          </div>
+          <!-- End Promo Single Item -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- .....::::: End Promo Section :::::..... -->
+
+  <!-- .....::::: Start Story Section :::::..... -->
+  <div class="story-section section-padding overflow-hidden border-top pb-md--80">
+    <div class="container">
+      <div class="row flex-lg-row flex-column-reverse mb-n5">
+        <div class="col-lg-5 mb-5  mt-lg-0 mt-5">
+          <div class="section-content section-content-gap">
+            <h6 class="sub-title">our story</h6>
+            <h2 class="title">Cooking is the art of adjustment</h2>
+          </div>
+          <div class="story-content-area">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. dapibus Tincidunt mollis pretium. Vivamus
+              sodales eu sapien sitamet iaculis. Curabitur mollis quam dolor, quis gravida orci mattis non. Nam erat
+              erat, tristique a elit at consectetur.</p>
+
+            <div class="author-info">
+              <h6 class="name">Thomas Eggsy <span class="title">Master Cheft at AI Restaurant</span> </h6>
+            </div>
+            <a href="#" class="btn btn-lg btn-primary">reservation</a>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 text-end mb-5">
+          <div class="story-img main-img scene">
+            <img class="img-fluid" src="assets/images/story-img.jpg" alt="">
+            <div class="dot-shape d-none d-lg-block" data-depth="0.5">
+              <img src="assets/images/shape-dot.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .....::::: End Story Section :::::..... -->
+
+  <!-- .....::::: Start About Section :::::..... -->
+  <div class="about-section section-top-gap">
+    <div class="container">
+      <div class="row mb-n5">
+        <div class="col-lg-6 text-end mb-5">
+          <div class="about-img main-img scene ">
+            <img class="img-fluid" src="assets/images/about/about.png" alt="">
+            <div class="dot-shape d-none d-lg-block" data-depth="0.5">
+              <img src="assets/images/shape-dot-1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1 mb-5 mt-lg-0 mt-5">
+          <div class="section-content text-end">
+            <h6 class="sub-title">review</h6>
+            <h2 class="title">The Masters say about us</h2>
+          </div>
+          <div class="about-slider text-end pos-relative content-slider-arrow">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <!-- Start About Content Single Item-->
+                <div class="about-single-item about-content-area swiper-slide">
+                  <h5 class="subtitle">“Best restaurant that i used to experience!”</h5>
+                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
+                    elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                    sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.</p>
+
+                  <div class="author-info">
+                    <h6 class="name">Thomas Eggsy <span class="title">Master Cheft at AI Restaurant</span> </h6>
+                  </div>
+                </div>
+                <!-- End About Content Single Item-->
+                <!-- Start About Content Single Item-->
+                <div class="about-single-item about-content-area swiper-slide">
+                  <h5 class="subtitle">“Best restaurant that i used to experience!”</h5>
+                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
+                    elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                    sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.</p>
+
+                  <div class="author-info">
+                    <h6 class="name">Thomas Eggsy <span class="title">Master Cheft at AI Restaurant</span> </h6>
+                  </div>
+                </div>
+                <!-- End About Content Single Item-->
+                <!-- Start About Content Single Item-->
+                <div class="about-single-item about-content-area swiper-slide">
+                  <h5 class="subtitle">“Best restaurant that i used to experience!”</h5>
+                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
+                    elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                    sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.</p>
+
+                  <div class="author-info">
+                    <h6 class="name">Thomas Eggsy <span class="title">Master Cheft at AI Restaurant</span> </h6>
+                  </div>
+                </div>
+                <!-- End About Content Single Item-->
+              </div>
+
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .....::::: End About Section :::::..... -->
+
+  <!-- .....::::: Start Event Section :::::..... -->
+  <div class="event-section-style-2 section-padding section-inner-bg">
+    <div class="container pos-relative">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-content section-content-gap text-center">
+            <h6 class="sub-title">services</h6>
+            <h2 class="title">Restaurant & Events</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="event-container-style-2 mb-n5">
+            <!-- Start Event Single Item -->
+            <div class="event-single-item-style-2 mb-5">
+              <div class="row">
+                <div class="col-lg-4 order-lg-1 order-2">
+                  <div class="wrapper">
+                    <div class="content">
+                      <h2 class="number">01</h2>
+                      <h4 class="title"><a href="#">Restaurant with Premium Steaks & Europe’s foods</a></h4>
+                      <p>We bring new brands to life & breathe new life into existing ones.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 order-lg-2 order-1">
+                  <div class="image">
+                    <img src="assets/images/event/event-xl-image-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Event Single Item -->
+            <!-- Start Event Single Item -->
+            <div class="event-single-item-style-2 mb-5">
+              <div class="row">
+                <div class="col-lg-4 order-lg-2 order-2">
+                  <div class="wrapper">
+                    <div class="content">
+                      <h2 class="number">02</h2>
+                      <h4 class="title"><a href="#">Help create your own event like party, birthday, etc</a></h4>
+                      <p>We bring new brands to life & breathe new life into existing ones.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 order-lg-1 order-1">
+                  <div class="image">
+                    <img src="assets/images/event/event-xl-image-2.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Event Single Item -->
+            <!-- Start Event Single Item -->
+            <div class="event-single-item-style-2 mb-5">
+              <div class="row">
+                <div class="col-lg-4 order-lg-1 order-2">
+                  <div class="wrapper">
+                    <div class="content">
+                      <h2 class="number">03</h2>
+                      <h4 class="title"><a href="#">Sell raw materials like beef, duck and others</a></h4>
+                      <p>We bring new brands to life & breathe new life into existing ones.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 order-lg-2 order-1">
+                  <div class="image">
+                    <img src="assets/images/event/event-xl-image-3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Event Single Item -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .....::::: End Event Section :::::..... -->
+
+  <!-- .....::::: Start Footer Section :::::..... -->
+  <footer class="footer-section section-padding text-center">
+    <div class="container">
+      <!-- Start Footer Top -->
+      <div class="footer-top footer-bottom-gap-60">
+        <div class="row">
+          <div class="col-12">
+            <!-- Start Footer Logo -->
+            <div class="footer-logo">
+              <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+            </div>
+            <!-- End Footer Logo -->
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Top -->
+      <!-- Start Footer Middle -->
+      <div class="footer-middle footer-bottom-gap-60">
+        <div class="row">
+          <div class="col-12">
+            <!-- Start Footer Navigation -->
+            <ul class="footer-nav">
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Review & Media</a></li>
+            </ul>
+            <!-- End Footer Navigation -->
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Middle -->
+      <!-- Start Footer Bottom -->
+      <div class="footer-bottom footer-bottom-gap-60">
+        <div class="row">
+          <div class="col-12">
+            <!-- Start Footer Social -->
+            <ul class="footer-social">
+              <li><a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="ion-social-twitter"></i></a></li>
+              <li><a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="ion-social-facebook"></i></a></li>
+              <li><a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="ion-social-googleplus"></i></a></li>
+              <li><a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="ion-social-instagram-outline"></i></a></li>
+              <li><a href="http://example.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="ion-social-rss"></i></a></li>
+            </ul>
+            <!-- End Footer Social -->
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Bottom -->
+
+      <!-- Start Copyright -->
+      <div class="copyright text-center">
+        <p>&copy; 2021 <a href="index.html">BISTRO</a>  Made with  <i class="ion-heart"></i>  by <a href="https://sites.google.com/view/abeliever0005/" target="_blank">A Believer</a> </p>
+      </div>
+      <!-- End Copyright -->
+    </div>
+  </footer>
+  <!-- .....::::: End News Section :::::..... -->
+
+  <!-- Material-scrolltop button -->
+  <button class="material-scrolltop" type="button"></button>
+
+  <!-- ::::::::::::::All JS Files here :::::::::::::: -->
+  <!-- Global Vendor, plugins JS -->
+  <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+  <script src="assets/js/vendor/popper.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+  <!--Plugins JS-->
+  <script src="assets/js/plugins/ajax-mail.js"></script>
+  <script src="assets/js/plugins/aos.min.js"></script>
+  <script src="assets/js/plugins/material-scrolltop.js"></script>
+  <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+  <script src="assets/js/plugins/venobox.min.js"></script>
+  <script src="assets/js/plugins/parallax.js"></script>
+  <script src="assets/js/plugins/images-loaded.min.js"></script>
+  <script src="assets/js/plugins/masonry.pkgd.min.js"></script>
+
+
+  <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+  <!-- <script src="assets/js/vendor/vendor.min.js"></script>
+  <script src="assets/js/plugins/plugins.min.js"></script> -->
+
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

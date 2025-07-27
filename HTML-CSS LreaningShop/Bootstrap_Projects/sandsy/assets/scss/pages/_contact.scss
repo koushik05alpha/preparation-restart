@@ -1,0 +1,56 @@
+/* 08.02 Contact CSS */
+
+.contact-title{
+    margin-bottom: 40px;
+    .title{
+        font-size: 32px;
+        line-height: 43px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        margin-bottom: 0;
+        // Responsive
+        @media #{$extra-small-mobile}{
+            font-size: 26px;
+        }
+    }
+}
+
+.contact-address{
+    .icon-title{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        .title{
+            font-size: 14px;
+            line-height: 1.3;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            margin-left: 10px;
+        }
+    }
+    .info{
+        .info-text{
+            font-size: 12px;
+            line-height: 16px;
+            display: block;
+            max-width: 180px;
+        }
+    }
+}
+
+.contact-info-wrap{
+    border-top: 1px solid #979797;
+    padding-top: 30px;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    .info-text{
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 10px;
+    }
+}
+

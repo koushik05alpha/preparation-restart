@@ -1,0 +1,35 @@
+/* 03.07 Gallery CSS */
+
+
+.gallery-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    // Responsive
+    @media #{$large-mobile}{
+        display: block;
+    }
+}
+
+.gallery{
+    position: relative;
+    overflow: hidden;
+    transition: $transition;
+    & .image {
+        display: block;
+
+        & img {
+            width: 100%;
+            transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
+
+    &:hover{
+        box-shadow: 20px 20px 0px 0px rgb(174,198,189);
+        & .image {
+            & img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

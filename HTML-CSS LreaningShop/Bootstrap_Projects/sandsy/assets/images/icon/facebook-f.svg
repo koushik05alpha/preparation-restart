@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Brands/facebook-f</title>
+    <defs>
+        <path d="M9.17455197,20.8172043 L9.17455197,12.3528226 L6.15053763,12.3528226 L6.15053763,8.98924731 L9.17455197,8.98924731 L9.17455197,6.3390457 C9.17455197,3.45967742 11.0512545,1.89247312 13.7913978,1.89247312 C15.1043011,1.89247312 16.2318996,1.98487903 16.5591398,2.02553763 L16.5591398,5.03427419 L14.6587814,5.03427419 C13.1684588,5.03427419 12.8806452,5.69959677 12.8806452,6.67170699 L12.8806452,8.98924731 L16.2437276,8.98924731 L15.7824373,12.3528226 L12.8806452,12.3528226 L12.8806452,20.8172043" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Single_Post" transform="translate(-1243.000000, -2587.000000)">
+            <g id="SOCIAL-Copy" transform="translate(1226.000000, 2574.000000)">
+                <g id="Icons/Brands/facebook-f" transform="translate(11.354839, 11.354839)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="facebook-f" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="Group" mask="url(#mask-2)" fill="#000000">
+                        <g id="🎨-color">
+                            <rect id="Rectangle" x="0" y="0" width="22.7096774" height="22.7096774"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

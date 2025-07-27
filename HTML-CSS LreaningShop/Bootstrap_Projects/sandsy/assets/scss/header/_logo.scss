@@ -1,0 +1,56 @@
+/* 04.03 Header Logo CSS */
+
+.header-logo {
+    position: relative;
+    z-index: 99;
+    margin-bottom: -30px;
+    background-color: $white;
+    width: 227px;
+    height: 227px;
+    line-height: 227px;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    // Responsive
+    @media #{$desktop-device}{
+        width: 130px;
+        height: 130px;
+        line-height: 130px;
+        padding: 15px;
+    }
+    @media #{$tablet-device}{
+        width: 130px;
+        height: 130px;
+        line-height: 130px;
+        padding: 15px;
+        margin-bottom: 0;
+    }
+    @media #{$large-mobile}{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        padding: 15px;
+        margin-bottom: 0;
+    }
+    @media #{$small-mobile}{
+        margin: auto;
+        margin-bottom: 0;
+    }
+    & a {
+        position: relative;
+        display: block;
+        line-height: 1;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    @media #{$extra-small-mobile} {
+        & a {
+            max-width: 120px;
+        }
+    }
+}

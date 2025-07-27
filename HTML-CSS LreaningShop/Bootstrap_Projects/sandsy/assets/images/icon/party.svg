@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bride</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.489329 0 0 0 0 0.556957 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About_Us" transform="translate(-1339.000000, -5467.000000)">
+            <g id="bride" transform="translate(1298.000000, 5425.000000)" filter="url(#filter-1)">
+                <g transform="translate(42.000000, 42.000000)">
+                    <path d="M21.5,30.5 L21.5,30.5 C15.977,30.5 11.5,24.023 11.5,18.5 L11.5,16.5 C11.5,10.9771525 15.9771525,6.5 21.5,6.5 L21.5,6.5 C27.0228475,6.5 31.5,10.9771525 31.5,16.5 L31.5,18.5 C31.5,24.023 27.023,30.5 21.5,30.5 Z" id="Path" stroke="#1E1E1E" stroke-linecap="square"></path>
+                    <path d="M31.365,20.124 C26.7960599,18.5638112 23.172693,15.0289624 21.5,10.5 C19.827307,15.0289624 16.2039401,18.5638112 11.635,20.124" id="Path" stroke="#1E1E1E" stroke-linecap="square"></path>
+                    <path d="M42.5,43.5 L37.189,13.366 C35.692659,5.88789797 29.126339,0.505311867 21.5,0.505311867 C13.873661,0.505311867 7.30734103,5.88789797 5.811,13.366 L0.5,43.5" id="Path" stroke="#1E1E1E" stroke-linecap="square"></path>
+                    <path d="M17.5,29.331 L17.5,31 C17.5,32.4586907 16.9205374,33.8576372 15.8890873,34.8890873 C14.8576372,35.9205374 13.4586907,36.5 12,36.5 C8.96243388,36.5 6.5,38.9624339 6.5,42 L6.5,44.5 L36.5,44.5 L36.5,42 C36.5,38.9624339 34.0375661,36.5 31,36.5 C27.9624339,36.5 25.5,34.0375661 25.5,31 L25.5,29.331" id="Path" stroke="#1E1E1E"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

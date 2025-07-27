@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>love-song</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.489329 0 0 0 0 0.556957 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About_Us" transform="translate(-182.000000, -5179.000000)">
+            <g id="love-song" transform="translate(140.000000, 5137.000000)" filter="url(#filter-1)">
+                <g transform="translate(42.000000, 42.000000)">
+                    <path d="M34.4999981,29.218 C39.4999981,23.8 44.4999981,17 44.4999981,11.5 C44.5028156,6.70046093 41.3918407,2.45379572 36.8148337,1.00929231 C32.2378267,-0.435211096 27.2527507,1.25634043 24.4999981,5.188 C21.7472493,1.25634043 16.7621733,-0.435211096 12.1851663,1.00929231 C7.60815925,2.45379572 4.49718437,6.70046093 4.49999809,11.5 C4.50641953,12.0531819 4.55724955,12.6049552 4.652,13.15" id="Path" stroke="#1E1E1E" stroke-linecap="square"></path>
+                    <polyline id="Path" stroke="#1E1E1E" points="28.497 36.5 28.5 14.5 8.498 18.5 8.498 41.5"></polyline>
+                    <circle id="Oval" stroke="#1E1E1E" cx="4.498" cy="40.5" r="4"></circle>
+                    <circle id="Oval" stroke="#1E1E1E" cx="24.5" cy="36.5" r="4"></circle>
+                    <line x1="8.5" y1="26.5" x2="28.5" y2="22.5" id="Path" stroke="#1E1E1E"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

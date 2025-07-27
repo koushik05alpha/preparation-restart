@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="123px" viewBox="0 0 127 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>love-car</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-590.000000, -5539.000000)" stroke="#1E1E1E">
+            <g id="Group-9" transform="translate(164.000000, 5539.000000)">
+                <g id="love-car" transform="translate(426.000000, 0.000000)">
+                    <path d="M79.0362543,4.06235537 C76.9243046,1.84840418 73.9099674,0.737981315 70.8707518,1.05434401 C67.8315363,1.37070671 65.1090093,3.07830007 63.4957307,5.68002346 C61.8829919,3.07761456 59.1603534,1.36944197 56.1208438,1.05304865 C53.0813341,0.736655329 50.066769,1.8476221 47.9552071,4.06235537 C44.014931,8.20722872 44.014931,14.7237817 47.9552071,18.868655 L63.4957307,35 L79.040365,18.8707157 C82.9881351,14.7274153 82.9863241,8.20345191 79.0362543,4.06235537 Z" id="Path"></path>
+                    <line x1="93" y1="109" x2="38" y2="109" id="Path"></line>
+                    <path d="M17.875,109 L1,109 L1,88.375 C1,81.5404762 6.59644063,76 13.5,76 L34.3333333,76 L46.8333333,80.125 L113.5,80.125 C120.403559,80.125 126,85.6654762 126,92.5 L126,109 L113.291667,109" id="Path"></path>
+                    <circle id="Oval" cx="28.5" cy="111.5" r="10.5"></circle>
+                    <circle id="Oval" cx="103.5" cy="111.5" r="10.5"></circle>
+                    <polyline id="Path" stroke-linecap="square" points="82.4109861 57 93 80 77 80"></polyline>
+                    <line x1="34" y1="76" x2="34" y2="59" id="Path" stroke-linecap="square"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

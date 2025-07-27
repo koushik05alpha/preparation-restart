@@ -1,0 +1,127 @@
+body{
+	background-color: black;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	color: #fff;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+}
+
+.col-md-8 p{
+	color: #fff;
+}
+
+.my-nav{
+	background-color: #585858;
+}
+
+.navbar-toggler{
+	border: none;
+}
+
+.my-nav ul li a{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.my-nav .active a{
+	color: #bce02b !important;
+}
+
+.my-nav i{
+	color: rgb(188, 224, 43);
+}
+
+.slider{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/slider.png');
+	padding-top: 200px;
+	padding-bottom: 50px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+/*.slider-bg{
+	position: absolute;
+	background-color: black;
+	opacity: 0.5;
+	padding-top: 300px;
+	padding-bottom: 200px;
+	width: 100%;
+	top:0;
+}*/
+
+.im{
+	width: 70%;
+	height: 200px;
+	border-radius: 10%;
+}
+
+.border-underline{
+	display: inline;
+	border-bottom: 4px solid #bce02b;
+}
+
+.border-underline-about{
+	display: inline;
+	border-bottom: 4px solid #fff;
+}
+
+.fa-arrow-circle-right{
+	color: #bce02b;
+	font-size: 1.5rem;
+}
+
+.fa-arrow-circle-right span{
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.fa-user{
+	color: #bce02b;
+	font-size: 1.5rem;
+}
+
+span{
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+small{
+	color: #fff;
+}
+
+.fa-phone-alt{
+	color: #bce02b;
+	font-size: 1.5rem;
+}
+
+.fa-envelope{
+	color: #bce02b;
+	font-size: 1.5rem;
+}
+
+.fa-map-marker-alt, .fa-facebook-square, .fa-twitter-square, .fa-linkedin, .fa-instagram-square{
+	color: #bce02b;
+	font-size: 1.5rem;
+}
+
+.foo{
+	background-color: #585858;
+	color:#fff;
+}
+
+.border-underline-post{
+	display: inline;
+	border-bottom: 2px solid #fff;
+}
+
+h5{
+	font-size: 2rem;
+}

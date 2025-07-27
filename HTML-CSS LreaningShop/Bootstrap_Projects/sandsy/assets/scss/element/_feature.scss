@@ -1,0 +1,70 @@
+/* 03.05 Feature CSS */
+
+.featuer-section{
+    .container{
+        .row{
+            .col-xl-auto{
+                &:last-child{
+                    .single-feature{
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.single-feature{
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translate(50%, -50%);
+        right: -50%;
+        width: 1px;
+        height: 120px;
+        background-color: $heading-color;
+        // Responsive
+        @media #{$laptop-device}{
+            right: -15%;
+            transform: translate(15%, -50%);
+        }
+        @media #{$desktop-device}{
+            right: 0%;
+            transform: translate(0%, -50%);
+        }
+        @media #{$tablet-device}{
+            display: none;
+        }
+        @media #{$large-mobile}{
+            display: none;
+        }
+    }
+    // Responsive
+    @media #{$large-mobile}{
+        text-align: center;
+    }
+    .content{
+        .title{
+            font-size: 32px;
+            line-height: 43px;
+            margin-bottom: 20px;
+            // Responsive
+            @media #{$large-mobile}{
+                font-size: 28px;
+                line-height: 36px;
+                margin-bottom: 15px;
+            }
+        }
+        .desc{
+            max-width: 305px;
+            // Responsive
+            @media #{$large-mobile}{
+                margin: 0 auto;
+            }
+        }
+    }
+}

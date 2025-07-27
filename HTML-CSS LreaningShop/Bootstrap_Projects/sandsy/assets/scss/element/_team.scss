@@ -1,0 +1,133 @@
+/* 03.08 Team CSS */
+
+.team-thumb-slider{
+    padding: 35px 22%;
+    margin-top: -35px;
+    margin-bottom: -35px;
+    // Responsive
+    @media #{$tablet-device}{
+        padding: 35px 35%;
+    }
+    @media #{$large-mobile}{
+        padding: 35px 35%;
+    }
+    & .swiper-wrapper{
+        align-items: flex-end !important;
+    }
+    & .swiper-slide {
+        &-active{
+            & .single-thumb {
+                border: 10px solid $primary;
+                transform: scale(1.1);
+                box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.single-thumb{
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: scale(0.75);
+    transition: all 0.3s ease 0s;
+    opacity: 0.5;
+    img{
+        width: 100%;
+    }
+}
+
+.single-team-content{
+    text-align: center;
+    margin-top: 30px;
+    & .title{
+        font-size: 32px;
+        line-height: 43px;
+        margin-bottom: 25px;
+        // Responsive
+        @media #{$small-mobile}{
+            font-size: 28px;
+            line-height: 38px;
+        }
+        .position{
+            font-style: italic;
+            color: $primary;
+        }
+    }
+    & p{
+        line-height: 38px;
+        max-width: 510px;
+        margin: 0 auto;
+        // Responsive
+        @media #{$small-mobile}{
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+}
+
+.team{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    transition: $transition;
+    .thumb{
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 40px;
+        // Responsive
+        @media #{$tablet-device}{
+            margin-bottom: 20px;
+        }
+        @media #{$large-mobile}{
+            margin-bottom: 20px;
+        }
+        .image{
+            display: block;
+            & img {
+                width: 100%;
+                transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+            }
+        }
+    }
+    .content{
+        .title{
+            font-size: 32px;
+            line-height: 43px;
+            margin-bottom: 20px;
+            // Responsive
+            @media #{$tablet-device}{
+                font-size: 26px;
+                line-height: 38px;
+                margin-bottom: 15px;
+            }
+            @media #{$large-mobile}{
+                font-size: 26px;
+                line-height: 34px;
+                margin-bottom: 15px;
+            }
+        }
+        p{
+            max-width: 400px;
+            // Responsive
+            @media #{$tablet-device}{
+                line-height: 1.5;
+            }
+        }
+    }
+    &:hover {
+        & .thumb {
+            & .image {
+                & img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+
+
+  
+

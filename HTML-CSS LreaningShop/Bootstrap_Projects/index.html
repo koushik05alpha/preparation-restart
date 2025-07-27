@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-image {
+            width: 100%;
+            display: block;
+            height: 0;
+            padding-bottom: 66.66%;
+            background-size: cover;
+            background-position: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .card-image:not([style*="background-image"]) {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+
+        .card-title {
+            font-size: 1.4em;
+            margin: 15px 15px 10px;
+            color: #0056b3;
+        }
+
+        .card-description {
+            font-size: 0.95em;
+            margin: 0 15px 15px;
+            color: #666;
+            flex-grow: 1;
+        }
+
+        .card-button {
+            display: block;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 12px 15px;
+            text-decoration: none;
+            border-radius: 0 0 8px 8px;
+            transition: background-color 0.3s ease;
+            margin-top: auto;
+        }
+
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-grid" id="cardContainer">
+    </div>
+    
+    <script>
+        const cardData = [
+            {
+                imageSrc: './Agench Website/Screenshot.png',
+                title: 'Agench Website',
+                description: 'A project from the Agench Website folder.',
+                link: './Agench Website/index.html'
+            },
+            {
+                imageSrc: './Archo Website/Screenshot.png',
+                title: 'Archi Website',
+                description: 'A project from the Archi Website folder.',
+                link: './Archo Website/index.html'
+            },
+            {
+                imageSrc: './Astory Website/Screenshot.png',
+                title: 'Astcoy Website',
+                description: 'A project from the Astcoy Website folder.',
+                link: './Astory Website/index.html'
+            },
+            {
+                imageSrc: './Barbero Website/Screenshot.png',
+                title: 'Barbero Website',
+                description: 'A project from the Barbero Website folder.',
+                link: './Barbero Website/index.html'
+            },
+            {
+                imageSrc: './Bistro Website/Screenshot.png',
+                title: 'Bistro Website',
+                description: 'A project from the Bistro Website folder.',
+                link: './Bistro Website/index.html'
+            },
+            {
+                imageSrc: './Bruno/Screenshot.png',
+                title: 'Bruno',
+                description: 'A project from the Bruno folder.',
+                link: './Bruno/index.html'
+            },
+            {
+                imageSrc: './Clenora/Screenshot.png',
+                title: 'Clenora',
+                description: 'A project from the Clenora folder.',
+                link: './Clenora/index.html'
+            },
+            {
+                imageSrc: './Consulte/Screenshot.png',
+                title: 'Consulte',
+                description: 'A project from the Consulte folder.',
+                link: './Consulte/index.html'
+            },
+            {
+                imageSrc: './Edward/Screenshot.png',
+                title: 'Edward',
+                description: 'A project from the Edward folder.',
+                link: './Edward/index.html'
+            },
+            {
+                imageSrc: './Elios/Screenshot.png',
+                title: 'Elios',
+                description: 'A project from the Elios folder.',
+                link: './Elios/index.html'
+            },
+            {
+                imageSrc: './Fastc/Screenshot.png',
+                title: 'Fastc',
+                description: 'A project from the Fastc folder.',
+                link: './Fastc/index.html'
+            },
+            {
+                imageSrc: './Gymate/Screenshot.png',
+                title: 'Gymate',
+                description: 'A project from the Gymate folder.',
+                link: './Gymate/index.html'
+            },
+            {
+                imageSrc: './Hutche/Screenshot.png',
+                title: 'Hutche',
+                description: 'A project from the Hutche folder.',
+                link: './Hutche/index.html'
+            },
+            {
+                imageSrc: './Lawa/Screenshot.png',
+                title: 'Lawa',
+                description: 'A project from the Lawa folder.',
+                link: './Lawa/index.html'
+            },
+            {
+                imageSrc: './Lens/Screenshot.png',
+                title: 'Lens',
+                description: 'A project from the Lens folder.',
+                link: './Lens/index.html'
+            },
+            {
+                imageSrc: './Logito/Screenshot.png',
+                title: 'Logito',
+                description: 'A project from the Logito folder.',
+                link: './Logito/index.html'
+            },
+            {
+                imageSrc: './Mexi/Screenshot.png',
+                title: 'Mexi',
+                description: 'A project from the Mexi folder.',
+                link: './Mexi/index.html'
+            },
+            {
+                imageSrc: './Nordic/Screenshot.png',
+                title: 'Nordic',
+                description: 'A project from the Nordic folder.',
+                link: './Nordic/index.html'
+            },
+            {
+                imageSrc: './Optico/Screenshot.png',
+                title: 'Optico',
+                description: 'A project from the Optico folder.',
+                link: './Optico/index.html'
+            },
+            {
+                imageSrc: './Orgo/Screenshot.png',
+                title: 'Orgo',
+                description: 'A project from the Orgo folder.',
+                link: './Orgo/index.html'
+            },
+            {
+                imageSrc: './Outeli/Screenshot.png',
+                title: 'Outeli',
+                description: 'A project from the Outeli folder.',
+                link: './Outeli/index.html'
+            },
+            {
+                imageSrc: './Portfolio/Screenshot.png',
+                title: 'Portfolio',
+                description: 'A project from the Portfolio folder.',
+                link: './Portfolio/index.html'
+            },
+            {
+                imageSrc: './Roomedia/Screenshot.png',
+                title: 'Roomedia',
+                description: 'A project from the Roomedia folder.',
+                link: './Roomedia/index.html'
+            },
+            {
+                imageSrc: './sandsy/Screenshot.png',
+                title: 'sandsy',
+                description: 'A project from the sandsy folder.',
+                link: './sandsy/index.html'
+            },
+            {
+                imageSrc: './Template/Screenshot.png',
+                title: 'Template',
+                description: 'A project from the Template folder.',
+                link: './Template/index.html'
+            },
+            {
+                imageSrc: './Tutors/Screenshot.png',
+                title: 'Tutors',
+                description: 'A project from the Tutors folder.',
+                link: './Tutors/index.html'
+            },
+            {
+                imageSrc: './unore/Screenshot.png',
+                title: 'unore',
+                description: 'A project from the unore folder.',
+                link: './unore/index.html'
+            },
+            {
+                imageSrc: './Uthr/Screenshot.png',
+                title: 'Uthr',
+                description: 'A project from the Uthr folder.',
+                link: './Uthr/index.html'
+            }
+        ];
+
+        const cardContainer = document.getElementById('cardContainer');
+
+        function createCard(data) {
+            const card = document.createElement('div');
+            card.classList.add('card');
+
+            const imgContainer = document.createElement('div');
+            imgContainer.classList.add('card-image');
+            imgContainer.style.backgroundImage = `url('${data.imageSrc}')`;
+
+            const title = document.createElement('h3');
+            title.classList.add('card-title');
+            title.textContent = data.title;
+
+            const description = document.createElement('p');
+            description.classList.add('card-description');
+            description.textContent = data.description;
+
+            const button = document.createElement('a');
+            button.href = data.link;
+            button.classList.add('card-button');
+            button.textContent = 'Show Project';
+            button.target = '_blank';
+            button.rel = 'noopener noreferrer';
+
+            card.appendChild(imgContainer);
+            card.appendChild(title);
+            card.appendChild(description);
+            card.appendChild(button);
+
+            return card;
+        }
+
+        cardData.forEach(data => {
+            const newCard = createCard(data);
+            cardContainer.appendChild(newCard);
+        });
+    </script>
+</body>
+</html>

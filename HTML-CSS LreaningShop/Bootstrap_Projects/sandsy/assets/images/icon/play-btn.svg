@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="57px" viewBox="0 0 40 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>triangle-right</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Homepage" transform="translate(-941.000000, -3839.000000)">
+            <g id="Group-14" transform="translate(744.000000, 3676.000000)">
+                <g id="triangle-right" transform="translate(122.000000, 97.000000)" filter="url(#filter-1)">
+                    <g transform="translate(75.000000, 67.000000)">
+                        <polygon id="Path" stroke="#1E1E1E" points="0.5 54.5 0.5 0.5 38.5 27.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

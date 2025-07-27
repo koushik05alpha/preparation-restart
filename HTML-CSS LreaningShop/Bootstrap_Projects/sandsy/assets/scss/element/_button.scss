@@ -1,0 +1,358 @@
+/* 03.01 Button CSS */
+
+.btn {
+    font-size: 16px;
+    line-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 52px;
+    padding: 0 40px;
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0px;
+    outline: none;
+    &.fz-10{
+        font-size: 10px;
+    }
+
+    &:focus {
+        box-shadow: none !important;
+    }
+
+    &-icon {
+        width: 56px;
+        padding: 15px;
+    }
+
+    &.disabled {
+        opacity: 0.65;
+    }
+    // Responsive
+    @media #{$tablet-device}{
+        padding: 0 25px;
+        height: 40px;
+        line-height: 38px;
+    }
+    @media #{$large-mobile}{
+        padding: 0 25px;
+        height: 45px;
+        line-height: 43px;
+    }
+    @media #{$small-mobile}{
+        font-size: 14px;
+    }
+}
+
+/* Button Sizes */
+.btn-sm {
+    font-size: 12px;
+
+    padding: 5px 20px;
+}
+
+.btn-xs{
+    height: 32px;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+.btn-md {
+    font-size: 14px;
+
+    padding: 10px 30px;
+}
+
+.btn-lg {
+    font-size: 18px;
+
+    padding: 20px 50px;
+}
+
+.btn-xl {
+    font-size: 20px;
+
+    padding: 25px 60px;
+}
+.btn-height-80{
+    // Responsive
+    @media #{$extraBig-device}{
+        height: 80px;
+        line-height: 78px;
+    }
+}
+
+.btn-width-100{
+    width: 100%;
+}
+.btn-width-250{
+    // Responsive
+    @media #{$extraBig-device}{
+        width: 250px;
+    }
+}
+.btn-width-180{
+    width: 180px;
+}
+.btn-height-60{
+    height: 60px;
+    line-height: 58px;
+}
+.header-btn{
+    width: 250px;
+    height: 55px;
+    line-height: 52px;
+    font-size: 16px;
+    letter-spacing: 1.7px;
+    color: $heading-color !important;
+    border: 2px solid #d7d7d7 !important;
+    padding: 0 20px;
+    border-radius: 2px;
+    &:hover{
+        color: $white !important;
+        border: 2px solid $primary !important;
+    }
+}
+
+/* Button Color & Style (Solid & Outline) */
+@each $name,
+$value in $theme-colors {
+    .btn-#{$name} {
+        border-color: $value;
+        background-color: $value;
+
+        @if $name==warning or $name==light or $name==off-white {
+            color: $heading-color;
+        }
+
+        @else {
+            color: $white;
+        }
+
+        &:hover,
+        &:focus {
+            border-color: transparent;
+            background-color: darken($value, 7.5%);
+
+            @if $name==warning or $name==light {
+                color: $heading-color;
+            }
+
+            @else {
+                color: $white;
+            }
+        }
+    }
+
+    .btn-outline-#{$name} {
+        color: $value;
+        border-color: $value;
+        background-color: transparent;
+
+        &:hover {
+            border-color: transparent;
+            background-color: $value;
+
+            @if $name==warning or $name==light {
+                color: $heading-color;
+            }
+
+            @else {
+                color: $white;
+            }
+        }
+    }
+}
+
+/* Button Hover Color & Style (Solid & Outline) */
+@each $name,
+$value in $theme-colors {
+    .btn-hover-#{$name} {
+        &:hover,
+        &:not(:disabled):not(.disabled).active {
+            border-color: transparent;
+            background-color: $value;
+
+            @if $name==warning or $name==light {
+                color: $heading-color;
+            }
+
+            @else {
+                color: $white;
+            }
+        }
+    }
+
+    .btn-outline-hover-#{$name} {
+        &:hover,
+        &:not(:disabled):not(.disabled).active {
+            color: $value;
+            border-color: transparent;
+            background-color: transparent;
+        }
+    }
+}
+
+
+
+
+
+.link {
+    line-height: 1;
+
+    position: relative;
+
+    padding: 3px 0;
+
+    color: $primary;
+    background-color: transparent;
+
+    &::before,
+    &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+
+        content: "";
+        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+        transform: scaleX(1) translateZ(0);
+        transform-origin: right;
+
+        background: $primary;
+    }
+
+    &::after {
+        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transform: scaleX(0) translateZ(0);
+        transform-origin: left;
+
+        background-color: $primary;
+    }
+    &:hover {
+        color: $primary;
+        &::before {
+            transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+            transform: scaleX(0) translateZ(0);
+        }
+
+        &::after {
+            transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+            transform: scaleX(1) translateZ(0);
+        }
+    }
+}
+
+.section-link{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    position: relative;
+
+    padding: 3px 0;
+
+    color: $heading-color;
+    background-color: transparent;
+    display: block;
+    text-align: center;
+
+    &::before,
+    &::after {
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        right: 0;
+        width: 200px;
+        height: 1px;
+        text-align: center;
+        margin: 0 auto;
+        content: "";
+        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+        transform: scaleX(1) translateZ(0);
+        transform-origin: right;
+        background: #979797;
+        // Responsive
+        @media #{$tablet-device}{
+            bottom: -10px;
+        }
+        @media #{$large-mobile}{
+            bottom: -10px;
+        }
+    }
+
+    &::after {
+        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transform: scaleX(0) translateZ(0);
+        transform-origin: left;
+
+        background-color: $primary;
+    }
+    &:hover {
+        color: $primary;
+        &::before {
+            transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+            transform: scaleX(0) translateZ(0);
+        }
+
+        &::after {
+            transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+            transform: scaleX(1) translateZ(0);
+        }
+    }
+}
+
+.view-all-service{
+    margin-top: 170px;
+    // Responsive
+    @media #{$laptop-device}{
+        margin-top: 100px;
+    }
+    @media #{$desktop-device}{
+        margin-top: 100px;
+    }
+    @media #{$tablet-device}{
+        margin-top: 80px;
+    }
+    @media #{$large-mobile}{
+        margin-top: 50px;
+    }
+}
+
+.load-more-btn{
+    width: 115px;
+    height: 115px;
+    border: 1px solid #d5d5d5;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $heading-color;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    // Responsive
+    @media #{$tablet-device}{
+        width: 90px;
+        height: 90px;
+    }
+    @media #{$large-mobile}{
+        width: 90px;
+        height: 90px;
+    }
+    &:hover{
+        border-color: $primary;
+    }
+}
+    

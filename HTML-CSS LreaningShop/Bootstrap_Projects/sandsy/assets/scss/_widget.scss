@@ -1,0 +1,48 @@
+/*----------------------------------------*/
+/*  10. Widget CSS
+/*----------------------------------------*/
+
+.footer-widget {
+    // Responsive
+    @media #{$small-mobile}{
+        text-align: center;
+    }
+}
+
+.footer-logo{
+    @media #{$small-mobile}{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+}
+.footer-widget-content {
+    font-size: 14px;
+    font-weight: 500;
+
+    & p {
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+.footer-social-inline {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 25px;
+
+    & a {
+        margin-right: 20px;
+        &:last-child{
+            margin-right: 0;
+        }
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+/* Breadcrumb CSS */
+
+.breadcrumb {
+    padding: 12px 0;
+
+    background-color: transparent;
+    // Responsive
+    @media #{$small-mobile}{
+        justify-content: center;
+    }
+
+    & li {
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: flex;
+        color: $white;
+        // Responsive
+        @media #{$desktop-device}{
+            font-size: 16px;
+            line-height: 28px;
+        }
+        @media #{$tablet-device}{
+            font-size: 16px;
+            line-height: 28px;
+        }
+        @media #{$large-mobile}{
+            font-size: 16px;
+            line-height: 28px;
+        }
+        @media #{$small-mobile}{
+            font-size: 13px;
+            line-height: 22px;
+        }
+
+        & + li {
+            &::before {
+                font-size: 12px;
+                margin: 0 15px;
+
+                content: "/";
+
+                color: $white;
+                // Responsive
+                @media #{$small-mobile}{
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        & a {
+            position: relative;
+
+            display: block;
+
+            color: $white;
+
+            &::before {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+
+                width: 0;
+                height: 1px;
+
+                content: "";
+                transition: $transition;
+
+                background-color: $white;
+            }
+
+            &:hover {
+                color: $white;
+
+                &::before {
+                    left: 0;
+
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

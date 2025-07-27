@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="43px" viewBox="0 0 45 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wedding-cake</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.489329 0 0 0 0 0.556957 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About_Us" transform="translate(-761.000000, -5180.000000)">
+            <g id="wedding-cake" transform="translate(719.000000, 5137.000000)" filter="url(#filter-1)">
+                <g transform="translate(42.000000, 43.000000)">
+                    <path d="M0.5,30.627 C1.89538246,33.3295018 4.56131061,35.1444186 7.5872144,35.4518504 C10.6131182,35.7592822 13.5895934,34.5176336 15.5,32.151 C17.2065924,34.2687616 19.780189,35.5000692 22.5,35.5000692 C25.219811,35.5000692 27.7934076,34.2687616 29.5,32.151 C31.4104066,34.5176336 34.3868818,35.7592822 37.4127856,35.4518504 C40.4386894,35.1444186 43.1046175,33.3295018 44.5,30.627" id="Path" stroke="#1E1E1E"></path>
+                    <path d="M28.381,1.656 C27.5817626,0.820302328 26.4409779,0.401184107 25.2908076,0.520679783 C24.1406372,0.640175459 23.1103743,1.28485227 22.5,2.267 C21.8891462,1.28515331 20.858773,0.640770923 19.708603,0.521295601 C18.558433,0.401820278 17.4176155,0.820667552 16.618,1.656 C15.1270791,3.22071162 15.1270791,5.68028838 16.618,7.245 L22.5,13.333 L28.382,7.245 C29.8731495,5.68022507 29.8727094,3.22024123 28.381,1.656 Z" id="Path" stroke="#1E1E1E"></path>
+                    <rect id="Rectangle" stroke="#1E1E1E" stroke-linecap="square" x="0.5" y="26.5" width="44" height="16"></rect>
+                    <polyline id="Path" stroke="#1E1E1E" stroke-linecap="square" points="38.5 26.5 38.5 18.5 6.5 18.5 6.5 26.5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="37px" viewBox="0 0 47 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wedding-rings</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.489329 0 0 0 0 0.556957 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About_Us" transform="translate(-1339.000000, -5184.000000)">
+            <g id="wedding-rings" transform="translate(1298.000000, 5137.000000)" filter="url(#filter-1)">
+                <g transform="translate(42.000000, 47.000000)">
+                    <polyline id="Path" stroke="#1E1E1E" points="14.189 9.535 18.5 4.5 18.5 2.5 15.5 0.5 11.5 0.5 8.5 2.5 8.5 4.5 12.811 9.535"></polyline>
+                    <path d="M25.837,26.58 C27.724916,20.8885524 25.4812197,14.6437253 20.402827,11.4551942 C15.3244342,8.26666312 8.72501074,8.95922908 4.41919798,13.1325706 C0.113385223,17.3059122 -0.785000166,23.88048 2.24333236,29.0559998 C5.27166488,34.2315196 11.443354,36.6692011 17.191,34.96" id="Path" stroke="#1E1E1E" stroke-linecap="square"></path>
+                    <path d="M19.163,18.42 C17.275084,24.1114476 19.5187803,30.3562747 24.597173,33.5448058 C29.6755658,36.7333369 36.2749893,36.0407709 40.580802,31.8674294 C44.8866148,27.6940878 45.7850002,21.11952 42.7566676,15.9440002 C39.7283351,10.7684804 33.556646,8.33079886 27.809,10.04" id="Path" stroke="#1E1E1E" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

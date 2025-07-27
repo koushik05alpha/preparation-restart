@@ -1,0 +1,62 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Wedding Bootstrap 5 Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    01. Template default CSS
+    02. Template Spacing CSS
+    03. Elements CSS
+        03.01 Button CSS
+        03.02 Brand CSS
+        03.03 CTA CSS
+        03.04 Form CSS
+        03.05 Feature CSS
+        03.06 Icon Box CSS
+        03.07 Gallery CSS
+        03.08 Team CSS
+        03.09 Video CSS
+        03.10 Instagram CSS
+        03.11 Breadcrumb CSS
+    04. Header CSS
+        04.01 Main Menu CSS
+        04.02 Mobile Menu CSS
+        04.03 Header Logo CSS
+    05. Intro CSS
+        05.01. Home One Intro CSS
+    06. Titles CSS
+        06.01 Page Title CSS
+        06.02 Section Title CSS
+    07. Blog CSS
+        07.01 Blog Grid CSS
+        07.02 Blog List CSS
+        07.03 Blog Details CSS
+    08. Pages CSS
+        08.01 Service CSS
+        08.02 Contact CSS
+    09. Testimonial CSS
+    10. Widget CSS
+    11. Footer CSS
+
+-----------------------------------------------------------------------------------*/
+@import "./bootstrap/functions";
+@import "variabls";
+@import "custom-variables";
+@import "./bootstrap/bootstrap";
+
+@import "common";
+@import "header";
+@import "intro";
+@import "elements";
+@import "title";
+@import "pages";
+@import "spacing";
+@import "testimonial";
+@import "blog";
+@import "newsletter";
+@import "widget";
+@import "footer";

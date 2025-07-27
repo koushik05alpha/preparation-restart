@@ -1,0 +1,28 @@
+/* 03.03 CTA CSS */
+
+.cta-content{
+    .title{
+        font-size: 150px;
+        line-height: 187px;
+        color: $white;
+        font-family: $intro-font;
+        margin-bottom: 30px;
+        // Responsive
+        @media #{$tablet-device}{
+            font-size: 120px;
+            line-height: 140px;
+        }
+        @media #{$large-mobile}{
+            font-size: 110px;
+            line-height: 130px;
+        }
+        @media #{$small-mobile}{
+            font-size: 100px;
+            line-height: 120px;
+        }
+        @media #{$extra-small-mobile}{
+            font-size: 72px;
+            line-height: 90px;
+        }
+    }
+}

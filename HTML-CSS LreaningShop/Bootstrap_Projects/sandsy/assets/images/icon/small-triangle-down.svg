@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="12px" height="10px" viewbox="0 0 12 10" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="small-triangle-down" transform="translate(1 1)">
+    <path d="M0 0L10 0L5 8L0 0Z" id="Path" fill="none" fill-rule="evenodd" stroke="#111111" stroke-width="2" stroke-linecap="square" />
+  </g>
+</svg>
